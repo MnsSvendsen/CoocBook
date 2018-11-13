@@ -14,7 +14,7 @@ export class RecipeService{
       
     ];
 
-      gerRecipes(){
+      getRecipes(){
           return this.recipes.slice();
       }
 }
